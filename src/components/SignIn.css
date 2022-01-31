@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #E5E5E4;
+
+}
+.form-wrapper {
+    margin-top: 15%;
+    width: 100%;
+    text-align: auto;
+}
+.form-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+.form-text, .form-subtext {
+    text-align: center;
+}
+.form-text {
+    font-size: 16px;
+    font-weight: 900;
+}
+.form-subtext {
+    color:#878181;
+    font-size: 3vh;
+}
+input {
+    height: 45px;
+    width: 400px;
+    padding:8px 12px;
+    border:none;
+}
+input:focus {
+    border:none;
+}
+.input-form{
+    display: block;
+    background-color: white;
+    width: 92%;
+    margin-left: 13px;
+    position: relative
+}
+.icon-message {
+    font-size: 20px;
+    margin-top: 10px;
+    font-size: 24px;
+    right: 15px;
+    position: absolute;
+}
+.btn-wrapper {
+    width: 100%;
+}
+.btn-sign {
+    position: relative;
+    width: 102px;
+    height: 45px;
+    float: right;
+    margin: 50px 15px;
+}
+.icon-right, .icon-left {
+    position: absolute;
+    margin-top: 1px;
+}
+.icon-left {
+    margin-left: -19px;
+    float: right;
+}
+
+.nav-sign {
+    padding-top:10px ;
+}
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+@media screen and (max-width: 600px) { 
+    .form-wrapper {
+        margin-top: 40%;
+    }
+    input{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .form-input {
+        display: block;
+    }
+    .btn-sign{
+        width: 80%;
+        margin-right: 10%;
+        align-items: center;
+        justify-content: center;
+    }
+    .form-subtext {
+        padding:2px;
+    }
+}
