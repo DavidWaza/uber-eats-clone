@@ -22,8 +22,7 @@ function HeroPage({buttonClick, onSearchChange}) {
         <div className="dt"></div>
         <img
           src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/7fc854e8448107a55583d296c2155d8b.svg"
-          role="img"
-          alt={"order your food"}
+          alt="order your food"
         />
       </div>
         <div className="hero-wrapper">

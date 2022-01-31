@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Heropage from "./components/Heropage";
 import Subsection from "./components/Subsection";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import Topnav from "./components/Topnav";
 import GoogleMaps from "./components/GoogleMaps";
 import ServiceList from "./components/SeviceList";

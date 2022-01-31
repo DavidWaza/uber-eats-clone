@@ -14,7 +14,7 @@ const ServiceCards = ({ id, name, detail,img }) => {
           /> */}
           <div>
             <img src={img} alt="building" style={sizes}/>
-            <a href="#">
+            <a href="#hello">
               <h2 className="title">{name}</h2>
               <p className="details">{detail}</p>
             </a>
