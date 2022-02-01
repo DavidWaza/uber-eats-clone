@@ -10,8 +10,6 @@ function HeroPage({ buttonClick, onSearchChange }) {
   };
   const [value, setValue] = useState(null);
 
-
-
   return (
     <main className="dg">
       <div className="wrapper">
@@ -33,6 +31,7 @@ function HeroPage({ buttonClick, onSearchChange }) {
             </div>
 
             <GooglePlacesAutocomplete
+              apiKey="AIzaSyBBarcCEGPIxHoOVaAzPc8pn1H-ijnXork"
               selectProps={{
                 value,
                 onChange: setValue,
@@ -48,7 +47,6 @@ function HeroPage({ buttonClick, onSearchChange }) {
                   }),
                 },
               }}
-              apiKey="apiKey"
             />
           </div>
           <button className="btn-food" onClick={buttonClick}>

@@ -33,5 +33,5 @@ function GoogleMaps(props) {
 }
 
 export default GoogleApiWrapper((props) =>({
-    apiKey: props.apiKey
+    apiKey: "AIzaSyBBarcCEGPIxHoOVaAzPc8pn1H-ijnXork"
   }))(GoogleMaps);
