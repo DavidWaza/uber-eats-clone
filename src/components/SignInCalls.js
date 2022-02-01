@@ -2,8 +2,8 @@ import React from "react";
 import "./SignIn.css";
 import { Link } from "react-router-dom";
 import { HiOutlinePhone } from "react-icons/hi";
-import { FiChevronRight} from "react-icons/fi";
-import { FiChevronLeft} from "react-icons/fi";
+import { FiChevronRight } from "react-icons/fi";
+import { FiChevronLeft } from "react-icons/fi";
 
 function SignInCalls() {
   return (
@@ -41,15 +41,15 @@ function SignInCalls() {
           Next
           <FiChevronRight className="icon-right"></FiChevronRight>
         </button>
-       
-        <Link to='/signin'>
-        <button className="btn-food btn-sign" >
-        <FiChevronLeft className="icon-left"></FiChevronLeft>
-          Back
-        </button>
+
+        <Link to="/signin">
+          <button className="btn-food btn-sign">
+            <FiChevronLeft className="icon-left"></FiChevronLeft>
+            Back
+          </button>
         </Link>
       </div>
-      </div>
+    </div>
   );
 }
 
