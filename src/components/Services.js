@@ -1,6 +1,5 @@
 import Restaurant from "../svgFiles/building.png";
 import Shopping from "../svgFiles/shopping.png";
-import Party from "../svgFiles/party2.png";
 import SuperMarket from "../svgFiles/supamarket.png";
 
 export const services = [
