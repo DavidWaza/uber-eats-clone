@@ -33,12 +33,10 @@ input {
   height: 45px;
   width: 400px;
   padding: 8px 12px;
-  border: 2px solid #000;
-}
-input:focus {
   border: none;
 }
 .input-form {
+  border:2px solid black ;
   display: block;
   background-color: white;
   width: 92%;
@@ -65,7 +63,7 @@ input:focus {
 .icon-right,
 .icon-left {
   position: absolute;
-  margin-top: 5px;
+  margin-top: 1px;
 }
 .icon-left {
   margin-left: -19px;

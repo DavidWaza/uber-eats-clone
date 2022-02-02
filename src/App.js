@@ -5,8 +5,8 @@ import Subsection from "./components/Subsection";
 import { useState } from "react";
 import Topnav from "./components/Topnav";
 import GoogleMaps from "./components/GoogleMaps";
-import ServiceList from "./components/SeviceList";
-import { services } from "./components/Services";
+// import ServiceList from "./components/SeviceList";
+// import { services } from "./components/Services";
 
 
 
@@ -27,7 +27,7 @@ function App() {
       <Heropage onSearchChange={onSearchChange} buttonClick={buttonClick} />
       <Subsection />
       {/* <Socials /> */}
-      <ServiceList services={services} />
+      {/* <ServiceList services={services} /> */}
       <GoogleMaps />
       {/* <Footer /> */}
     </div>

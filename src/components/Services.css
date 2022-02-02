@@ -22,7 +22,6 @@
 .subtext-service {
   padding-top: 60px;
   padding-bottom: 10px;
-  margin-left: 84px;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -32,13 +31,15 @@
   overflow: hidden;
 }
 .container-service-area {
+  justify-content: center;
+  align-items: center;
   display: flex ;
   flex-direction: row;
   width: 25%;
 }
 /* Responsive columns */
 @media screen and (max-width: 600px) {
-  .column {
+.container-service-area {
     width: 100%;
     display: block;
     margin-bottom: 20px;

@@ -5,7 +5,6 @@ import "./index.css";
 import App from "./App";
 import SignIn from "./components/SignIn";
 import SignInCalls from "./components/SignInCalls";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(

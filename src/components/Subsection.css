@@ -6,14 +6,13 @@ body {
 .container {
   display: grid;
   grid-gap: 10px;
-  margin: 8px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  justify-items: start;
-  /* padding: 10px; */
+  margin: 20px 12px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  justify-items: center;
+  align-items: center;
 }
 .constant {
   text-align: justify;
-  /* height: 100%; */
   width: 100%;
 }
 
