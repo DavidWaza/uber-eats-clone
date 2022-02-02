@@ -16,12 +16,14 @@ const ServiceList = ({ services }) => {
     );
   });
   return (
-    <div className="container">
+    <div className="row">
+      <h4 className="subtext-service">
+        Choose a Service
+      </h4>
       <div className="constant">
-        <h1 className="subtext" style={{ marginTop: "30px" }}>
-          Choose a Service
-        </h1>
-        {cardComponent}
+        <div className="container">
+          {cardComponent}
+          </div>
       </div>
     </div>
   );

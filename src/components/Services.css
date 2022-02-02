@@ -19,7 +19,11 @@
 
 /* Float four columns side by side */
 
-
+.subtext-service {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  margin-left: 84px;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -27,7 +31,11 @@
   clear: both;
   overflow: hidden;
 }
-
+.container-service-area {
+  display: flex ;
+  flex-direction: row;
+  width: 25%;
+}
 /* Responsive columns */
 @media screen and (max-width: 600px) {
   .column {

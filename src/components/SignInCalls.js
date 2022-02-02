@@ -25,7 +25,7 @@ function SignInCalls() {
           <form>
             <div className="input-form">
               <HiOutlinePhone className="icon-message"></HiOutlinePhone>
-              <input type="number" placeholder="Enter your number" />
+              <input type="text" placeholder="Enter your number" />
             </div>
           </form>
         </div>

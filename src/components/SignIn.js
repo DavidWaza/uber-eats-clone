@@ -12,15 +12,11 @@ function SignIn() {
   const onInputEmail = (e) => {
     setInputEmail({ inputEmail: e.target.value });
   };
-  // const buttonClick = () => {
-  //   console.log(inputEmail);
-  // };
 
   function onRouteChange() {
     if (inputEmail.inputEmail.length > 0) {
-      navigate("/signincalls")
+      navigate("/signincalls");
     }
-
   }
   return (
     <div>

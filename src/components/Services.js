@@ -11,12 +11,6 @@ export const services = [
     detail: "Food you love, from Restaurants near you.",
   },
   {
-    id: 2,
-    img: Party,
-    name: "Party",
-    detail: "Alcoholic drinks and more to get your party started.",
-  },
-  {
     id: 3,
     img: Restaurant,
     name: "Supermarket",
