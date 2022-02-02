@@ -19,7 +19,7 @@ function SignInCalls() {
       </nav>
       <div className="form-wrapper">
         <div className="form-text">
-          <h3>What's your Number?</h3>
+          <h5>What's your Number?</h5>
         </div>
         <div className="form-input">
           <form>
@@ -30,10 +30,10 @@ function SignInCalls() {
           </form>
         </div>
         <div className="form-subtext">
-          <h5>
+          <p>
             By continuing, you may recieve an email verification.
             <br /> Message and Data Rates may apply.
-          </h5>
+          </p>
         </div>
       </div>
       <div className="btn-wrapper">

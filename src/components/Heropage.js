@@ -13,8 +13,8 @@ function HeroPage({ buttonClick, onSearchChange }) {
   return (
     <main className="dg">
       <div className="wrapper">
-        <div className="Main-Content"></div>
-        <div className="dt"></div>
+        <div className="Main-Content">
+        <div className="dt">
         <img
           src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/7fc854e8448107a55583d296c2155d8b.svg"
           alt="order your food"
@@ -34,6 +34,7 @@ function HeroPage({ buttonClick, onSearchChange }) {
               apiKey="AIzaSyBBarcCEGPIxHoOVaAzPc8pn1H-ijnXork"
               selectProps={{
                 value,
+                placeholder:"Enter delivery address",
                 onChange: setValue,
                 styles: {
                   input: (provided) => ({
@@ -53,6 +54,8 @@ function HeroPage({ buttonClick, onSearchChange }) {
             Find Food
           </button>
         </div>
+      </div>
+      </div>
       </div>
     </main>
   );

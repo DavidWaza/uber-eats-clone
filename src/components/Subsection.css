@@ -2,14 +2,12 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.container-wrapper {
-  width: 100%;
-}
+
 .container {
   display: grid;
   grid-gap: 10px;
   margin: 8px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   justify-items: start;
   /* padding: 10px; */
 }
@@ -23,10 +21,6 @@ img {
   height: auto;
   width: 100%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-a {
-  text-decoration: none;
-  font-weight: 700;
 }
 .subtext {
   color: #000;
